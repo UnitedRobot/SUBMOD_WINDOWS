@@ -1,0 +1,73 @@
+{
+  "name": "MOD_GuardarComo",
+  "description": "Blank Process",
+  "main": "FlowChart_GuardarComo.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.Testing.Activities": "[1.3.3]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d4707201-7fd3-4833-9ac3-65286112f2f7",
+        "fileName": "TestCaseNoSoportado.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9623c3fd-e0e9-40af-8a78-7c9cca41bc5e",
+        "fileName": "TestCaseExcel.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "db25d6c6-567f-4f75-a987-4f33e54faee5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FlowChart_GuardarComo.xaml",
+      "uniqueId": "4ea58e14-d8d2-44f0-bc26-d8920f41eb90",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
